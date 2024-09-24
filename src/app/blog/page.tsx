@@ -1,4 +1,5 @@
 import { BlogPosts } from '@/components/sections/posts'
+import Text from '@/components/ui/text'
 
 export const metadata = {
   title: 'Blog',
@@ -8,7 +9,9 @@ export const metadata = {
 export default function Page() {
   return (
     <section>
-      <h1 className="font-semibold text-2xl mb-8 tracking-tighter">My Blog</h1>
+      <Text gradient={'test'} variant={'heading1'} weight={'semibold'} className='mb-8'
+
+      >My Blog</Text>
       <BlogPosts />
     </section>
   )

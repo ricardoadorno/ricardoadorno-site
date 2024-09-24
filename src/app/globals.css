@@ -89,4 +89,8 @@ body {
   body {
     @apply bg-background text-foreground;
   }
+
+  .animated-gradient {
+    @apply inline-flex animate-text-gradient bg-gradient-to-r from-neutral-100 via-neutral-600 to-neutral-300 bg-[200%_auto] text-transparent bg-clip-text
+  }
 }

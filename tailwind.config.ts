@@ -56,7 +56,17 @@ const config: Config = {
   			md: 'calc(var(--radius) - 2px)',
   			sm: 'calc(var(--radius) - 4px)'
   		}
-  	}
+  	},
+	  animation: {
+		"text-gradient": "text-gradient 3s linear infinite",
+	  },
+	  keyframes: {
+		"text-gradient": {
+		  to: {
+			backgroundPosition: "200% center",
+		  },
+		},
+	  },
   },
   plugins: [require("tailwindcss-animate")],
 };

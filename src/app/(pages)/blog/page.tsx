@@ -9,9 +9,7 @@ export const metadata = {
 export default function Page() {
   return (
     <section>
-      <Text gradient={'test'} variant={'heading1'} weight={'semibold'} className='mb-8'
-
-      >My Blog</Text>
+      <Text gradient={'test'} variant={'heading1'} weight={'semibold'} className='mb-8'>My Blog</Text>
       <BlogPosts />
     </section>
   )

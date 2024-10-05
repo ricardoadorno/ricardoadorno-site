@@ -8,6 +8,7 @@ const typographyVariant = cva("", {
         variant: {
             heading1: "text-2xl tracking-tighter",
             heading2: "text-[1.725rem] leading-9",
+            heading3: "text-[1.475rem] leading-8",
             subtitle1: "md:text-[1.525rem] text-[1.125rem] leading-7",
             subtitle2: "text-[1.125rem] ",
             "body-big": "md:text-[1rem] text-[0.825rem]",

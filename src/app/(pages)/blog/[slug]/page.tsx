@@ -1,5 +1,5 @@
 import { notFound } from 'next/navigation'
-import { formatDate, getBlogPosts } from '@/app/blog/utils'
+import { formatDate, getBlogPosts } from '@/app/(pages)/blog/utils'
 import { baseUrl } from '@/app/sitemap'
 import { CustomMDX } from '@/components/sections/mdx'
 

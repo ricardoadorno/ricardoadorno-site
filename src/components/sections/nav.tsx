@@ -1,3 +1,5 @@
+'use client';
+
 import Link from 'next/link'
 import { NavigationMenu, NavigationMenuItem, navigationMenuTriggerStyle } from '../ui/navigation-menu'
 import Text from '../ui/text'

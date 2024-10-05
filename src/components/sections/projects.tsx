@@ -1,3 +1,5 @@
+'use client';
+
 import Text from '../ui/text';
 
 
@@ -15,7 +17,7 @@ export default function Projects() {
     )
 }
 
-const ProjectCard = ({ title, description, tags }: { title: string, description: string, tags: string[] }) => {
+export const ProjectCard = ({ title, description, tags }: { title: string, description: string, tags: string[] }) => {
     return (
         <div className='flex flex-col bg-accent-foreground rounded-md '>
             <div >
@@ -23,8 +25,8 @@ const ProjectCard = ({ title, description, tags }: { title: string, description:
             </div>
 
             <div className=" p-4">
-                <div variant={'subtitle1'} weight={'medium'} className='mb-2'>{title}</div>
-                <div variant={'body'} className='mb-1'>{description}</div>
+                <Text variant={'subtitle2'} weight={'bold'} className='mb-2'>{title}</Text>
+                <Text className='mb-1'>{description}</Text>
                 <div className='flex gap-2'>
                     {tags.map(tag => (
                         <div key={tag} className='bg-gray-900 text-sm rounded-sm p-1'>{tag}</div>

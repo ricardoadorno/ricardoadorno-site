@@ -1,3 +1,5 @@
+'use client';
+
 import { Eye } from 'lucide-react';
 import Text from '../ui/text';
 

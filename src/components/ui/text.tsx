@@ -53,6 +53,8 @@ const defaultTagMap: Record<string, HTMLTags> = {
     heading2: 'h2',
     heading3: 'h3',
     heading4: 'h4',
+    subtitle1: 'p',
+    subtitle2: 'p',
     'body-big': 'p',
     body: 'p',
     'body-small': 'small',

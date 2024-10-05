@@ -1,6 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    basePath: "/ricardoadorno-site",
+    // basePath: "/ricardoadorno-site",
     output: 'export',
 };
 
